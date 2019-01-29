@@ -1,4 +1,4 @@
-/*//Boostrap init ------------------------------------->
+//Boostrap init ------------------------------------->
 @import "boostrap/bootstrap";
 
 //Imports ------------------------------------------->
@@ -32,43 +32,73 @@
 @h1-margin:                                 0 0 23px 0;
 
 @badassbgc:                                 #bada55;
-*/
+
 body{
+    background-color: #3e8f3e;
+    padding: 30px 100px 50px 100px;
     margin: auto;
-    width: 50%;
-    height: 500px;
-    padding-top: 300px;
-    font-family: "HP Simplified", sans-serif;
-    div{
-        h4{
-            margin: 0 0 30px 0;
-            background-color: #DB2B30;
-            border: #428bca solid 2px;
+    width: 100%;
+    header
+    {
+        display: inline-flex;
+        position: relative;
+        width: 100%;
+        min-height: 10vh;
+        div
+        {
             position: relative;
-            padding: 8px 0 8px 20px;
         }
-        i{
+        div > i
+        {
+            font-size: 50px;
+            margin-right: 20px;
+        }
+        div > .menu:hover{
+            text-shadow: #27ee11 2px 2px;
+        }
+        .popup
+        {
+            font-size: 30px;
+            margin: 0 0 0 20px;
             position: absolute;
-            right: 10px;
+            top: 12px;
+            left: 46em;
+            cursor: pointer;
         }
-        .box{;
-            p{
-                margin: 0;
+    }
+    article
+    {
+        background-color: #00b3ee;
+        position: relative;
+        top: 70px;
+        border-radius: 25px;
+        width: 100%;
+        height: 50vh;
+        section
+        {
+            div
+            {
+                background-color: #00b3ee;
+            }
+            form
+            {
+                position: relative;
+                top: 20vh;
             }
         }
     }
 }
-
-.active{
-    background-color: #a54a37;
-    color: #FFF;
+@media only screen and (max-width: 1800px) {
+    body
+    {
+        width: 100%;
+        background-color: #00b3ee;
+    }
+    header
+    {
+        width: 100%;
+    }
 }
-
-.content{
-    display: none;
-}
-
-
 
 
 
