@@ -21,18 +21,20 @@
     
     <section class="container">
     <div class="row">
-        <form action="">
+        <form>
 
-            <input type="text" placeholder="name" class="req">
-            <input type="text" placeholder="surname" class="req">
-            <input type="text" placeholder="age" class="req">
-            <input type="text" placeholder="sex" class="req"><br>
+            Name: <input type="text" name="name" class="req">
+            Surname: <input type="text" name="surname" class="req">
+            Age: <input type="number" name="age" class="req">
+            Sex: <input type="text" name="sex" class="req"><br>
             Does motor oil tastes good?<br>
-            <input type="radio" name="are u a robot?" value="agreed" class="reqRo">Yes
-            <input type="radio" name="are u a robot?" value="disagreed">No<br>
-            <button type="button">confirm</button>
-
+            <!--<input type="radio" name="are u a robot?" value="agreed" class="reqRo">Yes-->
+            <!--<input type="radio" name="are u a robot?" value="disagreed">No<br>-->
+            <input type="submit">
         </form>
+    </div>
+    <div class="popupalert" style="display: none">
+        <p class="ale">warning</p>
     </div>
     </section>
     

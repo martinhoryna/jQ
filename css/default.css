@@ -6900,6 +6900,19 @@ body article section form {
   position: relative;
   top: 20vh;
 }
+body article section .popupalert {
+  margin: auto;
+  width: 100%;
+  text-align: center;
+  padding: 3vh 13vh 3vh 13vh;
+  background-color: #f1f1f1;
+  text-transform: uppercase;
+  border-radius: 30px;
+  border: 2px solid red;
+  z-index: 1000;
+  position: relative;
+  bottom: 60px;
+}
 @media only screen and (max-width: 1800px) {
   body {
     width: 100%;
