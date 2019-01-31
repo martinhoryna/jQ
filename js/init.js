@@ -3,7 +3,7 @@ $(document).ready(function () {
         $(".error-wrap").fadeToggle(".error-wrap");
     })
     $("form").submit(function () {
-        var form = $(this);
+       // var form = $(this);
         var error = 0;
 
 
@@ -15,7 +15,7 @@ $(document).ready(function () {
 
             }
         })
-        var input = $("form input:radio")
+       // var input = $("form input:radio")
         if (error > 0){
             return false;
         } else{
