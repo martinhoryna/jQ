@@ -6900,7 +6900,7 @@ body article section form {
   position: relative;
   top: 20vh;
 }
-body article section .popupalert {
+body article section .error-wrap {
   margin: auto;
   width: 100%;
   text-align: center;
@@ -6912,6 +6912,13 @@ body article section .popupalert {
   z-index: 1000;
   position: relative;
   bottom: 60px;
+}
+body article section .invo {
+  margin-top: 20px;
+}
+body article section .error {
+  position: absolute;
+  top: -25px;
 }
 @media only screen and (max-width: 1800px) {
   body {

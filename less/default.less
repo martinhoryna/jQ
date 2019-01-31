@@ -1,16 +1,15 @@
 //Boostrap init ------------------------------------->
 @import "boostrap/bootstrap";
-
 //Imports ------------------------------------------->
 @import "import/layout";
 @import "import/typography";
 @import "import/responsive";
 
 //Boostrap variables -------------------------------->
-@body-bg:                                   #f1f1f1;
-@text-color:                                #000;
-@font-size-base:                            18px;
-@line-height-base:                          22px;
+@body-bg: #f1f1f1;
+@text-color: #000;
+@font-size-base: 18px;
+@line-height-base: 22px;
 
 @screen-sm: 480px;
 
@@ -23,41 +22,42 @@
 @btn-primary-color: #000;
 
 //Our variables -------------------------------------->
-@p-margin:                                  22px;
-@wrapper-width:                             1310px; // 1280px + 30px gridGutter
+@p-margin: 22px;
+@wrapper-width: 1310px; // 1280px + 30px gridGutter
 //Headline 1
-@h1-size:                                   50px;
-@h1-lineheight:                             60px;
-@h1-color:                                  #444;
-@h1-margin:                                 0 0 23px 0;
+@h1-size: 50px;
+@h1-lineheight: 60px;
+@h1-color: #444;
+@h1-margin: 0 0 23px 0;
 
-@badassbgc:                                 #bada55;
+@badassbgc: #bada55;
 
-body{
+body {
     background-color: #3e8f3e;
     padding: 30px 100px 50px 100px;
     margin: auto;
     width: 100%;
-    header
-    {
+
+    header {
         display: inline-flex;
         position: relative;
         width: 100%;
         min-height: 10vh;
-        div
-        {
+
+        div {
             position: relative;
         }
-        div > i
-        {
+
+        div > i {
             font-size: 50px;
             margin-right: 20px;
         }
-        div > .menu:hover{
+
+        div > .menu:hover {
             text-shadow: #27ee11 2px 2px;
         }
-        .popup
-        {
+
+        .popup {
             font-size: 30px;
             margin: 0 0 0 20px;
             position: absolute;
@@ -66,27 +66,30 @@ body{
             cursor: pointer;
         }
     }
-    article
-    {
+
+    article {
         background-color: #00b3ee;
         position: relative;
         top: 70px;
         border-radius: 25px;
         width: 100%;
         height: 50vh;
-        section
-        {
-            div
-            {
+
+        section {
+            div {
                 background-color: #00b3ee;
             }
-            form
-            {
+
+            form {
                 position: relative;
                 top: 20vh;
+
+                div {
+
+                }
             }
-            .popupalert
-            {
+
+            .error-wrap {
                 margin: auto;
                 width: 100%;
                 text-align: center;
@@ -99,22 +102,30 @@ body{
                 position: relative;
                 bottom: 60px;
             }
+
+            .invo {
+                margin-top: 20px;
+            }
+
+            .error {
+                position: absolute;
+                top: -25px;
+            }
         }
     }
 }
+
 @media only screen and (max-width: 1800px) {
-    body
-    {
+    body {
         width: 100%;
         background-color: #00b3ee;
     }
-    header
-    {
+
+    header {
         width: 100%;
     }
 }
 
-form > div
-{
-   display: inline-block;
+form > div {
+    display: inline-block;
 }
