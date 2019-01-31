@@ -6922,4 +6922,7 @@ body article section .popupalert {
     width: 100%;
   }
 }
+form > div {
+  display: inline-block;
+}
 /*# sourceMappingURL=default.css.map */

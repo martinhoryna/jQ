@@ -1,18 +1,24 @@
 $(document).ready(function () {
     $(".popup").click(function () {
-        $(".popupalert").fadeToggle(".popupalert");
+        $(".error-wrap").fadeToggle(".error-wrap");
     })
-    $("form").submit(function (e) {
+    $("form").submit(function () {
         var form = $(this);
         var error = 0;
-        console.log($(this).find(".req"));
 
-        $(this).find(".req").each(function () {
-            console.log($(this).val()== "");
+
+       form.find(".req").each(function () {
+           $(this).parent().find(".error").remove()
             if ($(this).val() == ""){
-                console.log("bar is empty")
-                e.preventDefault();
+                error = 1;
+               $(this).parent().append("<div class='error'>ERROR</div>")
+
             }
         })
+        if (error > 0){
+            return false;
+        } else{
+            return true
+        }
     })
 })
