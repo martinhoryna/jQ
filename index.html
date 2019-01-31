@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Validation</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="css/default.css" media="screen">
@@ -23,13 +23,14 @@
     <div class="row">
         <div>
         <form>
-            <div><label for="name">Name:</label><input type="text" name="name" class="req" id="name"></div>
-          <div><label for="surname">Surname: </label><input type="text" name="surname" class="req" id="surname"></div>
+            <div><label for="name">Name:</label><input type="text" name="name" class="req" id="name" placeholder="John"></div>
+          <div><label for="surname">Surname: </label><input type="text" name="surname" class="req" id="surname" placeholder="Fitzgerald"></div>
             <div><label for="age">Age: </label><input type="number" name="age" class="req" id="age"></div>
-            <div><label for="gender">Sex: </label><input type="text" name="sex" class="req" id="gender"><br></div>
-            <p class="invo">Does motor oil tastes good?</p><br>
-            <!--<input type="radio" name="are u a robot?" value="agreed" class="reqRo">Yes-->
-            <!--<input type="radio" name="are u a robot?" value="disagreed">No<br>-->
+            <div><label for="gender">Sex: </label><input type="text" name="sex" class="req" id="gender" placeholder="Female/Male/Other"><br></div>
+            <!--<p class="invo">Does motor oil tastes good?</p><br>-->
+            <!--<input type="radio" name="are u a robot?" value="agreed" class="robo">Yes-->
+            <!--<input type="radio" name="are u a robot?" value="disagreed" class="robo">No<br>-->
+            <div id="log"></div>
             <input type="submit">
         </form>
     </div>

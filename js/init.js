@@ -11,14 +11,18 @@ $(document).ready(function () {
            $(this).parent().find(".error").remove()
             if ($(this).val() == ""){
                 error = 1;
-               $(this).parent().append("<div class='error'>ERROR</div>")
+               $(this).parent().append("<div class='error'>Error: Fill this bar to continue</div>")
 
             }
         })
+        var input = $("form input:radio")
         if (error > 0){
             return false;
         } else{
             return true
         }
+        /*$("input").on("click", function () {
+            $("#log").html( $("input:checked").val() + "asd")
+        })*/
     })
 })

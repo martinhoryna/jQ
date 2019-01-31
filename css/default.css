@@ -6919,6 +6919,7 @@ body article section .invo {
 body article section .error {
   position: absolute;
   top: -25px;
+  color: red;
 }
 @media only screen and (max-width: 1800px) {
   body {
