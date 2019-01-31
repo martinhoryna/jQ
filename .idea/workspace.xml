@@ -5,8 +5,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/default.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/default.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/default.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/default.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/init.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/init.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/less/default.less" beforeDir="false" afterPath="$PROJECT_DIR$/less/default.less" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,8 +18,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/default.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="158401">
-              <caret line="6887" column="14" selection-start-line="6887" selection-start-column="14" selection-end-line="6887" selection-end-column="14" />
+            <state relative-caret-position="822">
+              <caret line="6888" column="14" selection-start-line="6888" selection-start-column="14" selection-end-line="6888" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -29,8 +27,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/less/default.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="592">
-              <caret line="112" column="26" selection-start-line="112" selection-start-column="26" selection-end-line="112" selection-end-column="26" />
+            <state relative-caret-position="477">
+              <caret line="39" column="19" lean-forward="true" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -66,9 +64,9 @@
         <option value="$PROJECT_DIR$/what.php" />
         <option value="$PROJECT_DIR$/../mrdka/php.php" />
         <option value="$PROJECT_DIR$/../mrdka/index.html" />
-        <option value="$PROJECT_DIR$/less/default.less" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/init.js" />
+        <option value="$PROJECT_DIR$/less/default.less" />
       </list>
     </option>
   </component>
@@ -147,12 +145,12 @@
       <workItem from="1548746208244" duration="699000" />
       <workItem from="1548756772812" duration="14610000" />
       <workItem from="1548922656254" duration="5766000" />
-      <workItem from="1548935355885" duration="2415000" />
+      <workItem from="1548935355885" duration="2825000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37865000" />
+    <option name="totallyTimeSpent" value="38275000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="22" width="1936" height="1066" extended-state="6" />
@@ -195,17 +193,17 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../accordion/js/init.js" />
-    <entry file="file://$PROJECT_DIR$/css/default.css">
+    <entry file="file://$PROJECT_DIR$/less/default.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158401">
-          <caret line="6887" column="14" selection-start-line="6887" selection-start-column="14" selection-end-line="6887" selection-end-column="14" />
+        <state relative-caret-position="477">
+          <caret line="39" column="19" lean-forward="true" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/less/default.less">
+    <entry file="file://$PROJECT_DIR$/css/default.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="592">
-          <caret line="112" column="26" selection-start-line="112" selection-start-column="26" selection-end-line="112" selection-end-column="26" />
+        <state relative-caret-position="822">
+          <caret line="6888" column="14" selection-start-line="6888" selection-start-column="14" selection-end-line="6888" selection-end-column="14" />
         </state>
       </provider>
     </entry>

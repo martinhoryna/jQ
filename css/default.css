@@ -6860,6 +6860,7 @@ body {
   padding: 30px 100px 50px 100px;
   margin: auto;
   width: 100%;
+  height: 1000px;
 }
 body header {
   display: inline-flex;
@@ -6886,7 +6887,7 @@ body header .popup {
   cursor: pointer;
 }
 body article {
-  background-color: #00b3ee;
+  background-color: #35a8c9;
   position: relative;
   top: 70px;
   border-radius: 25px;
@@ -6894,7 +6895,7 @@ body article {
   height: 50vh;
 }
 body article section div {
-  background-color: #00b3ee;
+  background-color: #35a8c9;
 }
 body article section form {
   position: relative;
@@ -6924,7 +6925,7 @@ body article section .error {
 @media only screen and (max-width: 1800px) {
   body {
     width: 100%;
-    background-color: #00b3ee;
+    background-color: #4378ee;
   }
   header {
     width: 100%;
